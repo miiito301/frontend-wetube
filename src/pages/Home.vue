@@ -15,7 +15,7 @@
         const {keyword, order, videoDuration} =paramsFromForm
 
         //vercelのURL|ローカルURL
-        axios.get(`${import.meta.env.VITE_API_URL}/youtube-search`,{
+        axios.get(`https://www.googleapis.com/youtube/v3/search`,{
 
         params:{
         part:"snippet",
