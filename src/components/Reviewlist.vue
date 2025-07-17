@@ -56,7 +56,7 @@
 
     const fetchReviews = async () => {
     try {
-        const res = await fetch(`${API_BASE}/reviews`);
+        const res = await fetch(`${API_BASE}/api/reviews`);
         const data = await res.json();
         reviews.value = data;
     } catch (error) {
