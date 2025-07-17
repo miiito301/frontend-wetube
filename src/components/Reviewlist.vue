@@ -13,7 +13,7 @@
             <div class="flex-shrink-0 hidden md:block">
                 <img v-if="review.thumbnail" :src="review.thumbnail" alt="本のサムネイル"
                 class="rounded-lg"/>
-                <img v-else src="../assets/miserarenai.jpg"alt="画像なし"
+                <img v-else src="#"alt="画像なし"
                 class="rounded-lg w-[128px] h-[192px]"/>
             </div>
 
