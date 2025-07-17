@@ -52,7 +52,7 @@
 
     const reviews = ref([]);
 
-    const API_BASE = import.meta.env.VITE_API_URL
+    const API_BASE = import.meta.env.VITE_RENDER_URL
 
     const fetchReviews = async () => {
     try {
