@@ -51,7 +51,7 @@
 
     const handleReviewSubmit = async (reviewData) => {
     try { 
-        await fetch(`${API_BASE}/reviews`, {
+        await fetch(`${API_BASE}/api/reviews`, {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(reviewData)
