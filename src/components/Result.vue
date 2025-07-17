@@ -13,11 +13,11 @@
                     <img
                     :src="video.snippet.thumbnails.medium.url"
                     :alt="video.snippet.title"
-                    class="w-48 h-auto rounded　m-2"
+                    class="w-48 h-auto rounded m-2"
                     />
 
                     <!-- 右側の情報 -->
-                    <div class="flex flex-col justify-between">
+                    <div class="flex flex-col justify-between ml-2">
                         <a :href="`https://www.youtube.com/watch?v=${video.id.videoId}`"　target="_blank"　rel="noopener noreferrer"
                         class="text-lg font-semibold text-blue-600 hover:underline">
                             {{ video.snippet.title }}
