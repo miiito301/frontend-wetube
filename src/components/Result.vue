@@ -5,10 +5,10 @@
         <div v-if="videos.length > 0" class="space-y-6">
 
             <div v-for="video in videos" :key="video.id.videoId"
-            class="flex flex-col bg-white border rounded-lg shadow-md p-4">
+            class="flex flex-col bg-white border rounded-lg shadow-md p-6">
 
                 <!-- 横並びレイアウト -->
-                <div class="flex gap-4">
+                <div class="flex gap-6">
                 <!-- サムネイル左側 -->
                     <img
                     :src="video.snippet.thumbnails.medium.url"
