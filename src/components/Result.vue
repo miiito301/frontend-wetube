@@ -13,7 +13,7 @@
                     <img
                     :src="video.snippet.thumbnails.medium.url"
                     :alt="video.snippet.title"
-                    class="w-48 h-auto rounded"
+                    class="w-48 h-auto rounded　m-2"
                     />
 
                     <!-- 右側の情報 -->
